@@ -74,6 +74,8 @@ android {
 }
 
 dependencies {
+androidTestCompile('com.microsoft.appcenter:espresso-test-extension:1.2')
+
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     //exifInterface
